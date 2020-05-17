@@ -18,5 +18,16 @@ export class AppComponent {
       value: 32,
       type: 'number'
     },
+    city: {
+      label: 'City',
+      value: 'Zrenjanin',
+      type: 'select',
+      options: [
+        {label: '(choose one)', value: ''},
+        {label: 'Zrenjanin', value: 'ZR'},
+        {label: 'Novi Sad', value: 'NS'},
+        {label: 'Beograd', value: 'BG'}
+      ]
+    }
   };
 }
